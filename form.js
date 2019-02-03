@@ -40,7 +40,7 @@ $("body").scrollspy({ target: "#navbar-scroll" });
   );
 
   var revealChildren = sr.reveal(
-    ".card-title, .card-text, .card-process img, .jumbotron-about, .flipInY",
+    ".card-title, .card-text, .process-container .card-img-top",
     {
       duration: 500,
       scale: 1,

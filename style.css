@@ -481,12 +481,6 @@ a:active {
   margin-bottom: 15px;
 }
 
-.card-process {
-  display: block;
-  height: 500px;
-  border-radius: 15px;
-  flex: flex;
-}
 .card-process-body {
   justify-content: center;
   display: block;
@@ -495,15 +489,20 @@ a:active {
 }
 
 .card-title-process {
-  /* height: 30px; */
   text-align: center;
 }
 
 .process-tasks {
-  /* height: 30px; */
   text-align: center;
   list-style-type: none;
   height: 100px;
+}
+
+.process-container .card-img-top {
+  max-height: 300px;
+  width: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 /* ****************************** */
@@ -518,7 +517,7 @@ a:active {
 
 /* flip in Y elements */
 .flipInY {
-  animation-duration: 15s;
+  animation-duration: 2s;
   animation-delay: 3s;
   /* animation-iteration-count: infinite; */
 }
