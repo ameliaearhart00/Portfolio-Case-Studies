@@ -518,7 +518,7 @@ a:active {
 /* flip in Y elements */
 .flipInY {
   animation-duration: 2s;
-  animation-delay: 3s;
+  animation-delay: 1s;
   /* animation-iteration-count: infinite; */
 }
 
